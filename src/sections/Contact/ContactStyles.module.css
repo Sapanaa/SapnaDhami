@@ -1,0 +1,93 @@
+.container {
+  color: white; /* Default text color */
+  padding: 40px;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 48px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(0, 225, 255); /* Neon pink color */
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.formGroup {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  font-family: 'Courier New', monospace;
+  color: #0066ff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.input, .textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  border: 2px solid #00ccff; /* Neon pink border */
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: 'GTA', sans-serif;
+}
+
+.input:focus, .textarea:focus {
+  outline: none;
+  border-color: #00e5ff; /* Neon blue on focus */
+}
+
+.textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.submitBtn {
+  padding: 15px 30px;
+  background-color: #0400ff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.submitBtn:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.successMessage {
+  color: #00e5ff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.errorMessage {
+  color: #ff0000;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.hoverEffect {
+  transition: all 0.3s ease;
+}
+
+.hoverEffect:hover {
+  transform: scale(1.05);
+}

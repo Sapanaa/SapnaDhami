@@ -1,0 +1,12 @@
+/* src/App.css */
+@font-face {
+  font-family: "GTA";
+  src: url("./assets/pricedown.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "GTA", sans-serif;
+
+}
